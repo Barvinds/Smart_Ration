@@ -47,9 +47,9 @@ const App = () => {
             {showPopup && (
                 <div className="popup">
                     <div className="popup-content">
-                        <h2>DR.GRANDMA</h2>
+                        <h2>SMART RATION SHOP</h2>
                         <TranslateWidget />
-                        <p>In this chatbot only access for few questions is free. If you want to move further, please complete the login process.</p>
+                        <p>Welcome to my wonderfull people</p>
                         <button onClick={handleAccept}>Accept</button>
                     </div>
                 </div>
