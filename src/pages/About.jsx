@@ -20,7 +20,7 @@ const About = () => {
       alignItems: "center",
       justifyContent: "center",
       minHeight: "100vh",
-      background: "linear-gradient(135deg, #1e3c72, #2a5298)",
+      background: "#0a8379",
       padding: "40px 20px",
       marginTop: "4rem", // Added top margin
     },
