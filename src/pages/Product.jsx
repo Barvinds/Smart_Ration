@@ -57,7 +57,7 @@ const Product = () => {
             </div>
           ))}
         </div>
-        <div style={{ marginBottom: "4rem" }}>
+        <div>
           <h3>Total Amount: ₹{totalAmount}</h3>
           <button 
             style={{ 
