@@ -23,7 +23,7 @@ const Product = () => {
 
   return (
     <>
-      <div style={{ paddingTop: "4rem", textAlign: "center" }}>
+      <div style={{ paddingTop: "4rem", textAlign: "center",backgroundColor:"#0a8379" }}>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1rem", padding: "1rem" }}>
           {products.map((product) => (
             <div 
