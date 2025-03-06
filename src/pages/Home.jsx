@@ -6,7 +6,7 @@ const Home = () => {
       position: "relative",
       width: "100%",
       height: "100vh",
-      background: "url('https://files.oaiusercontent.com/file-QdqAuWJsuAhc2yGp8zecUF?se=2025-03-06T14%3A28%3A45Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D34c838a6-b702-49d8-a65f-cea0c611d7cf.webp&sig=VhcrrCjrxSzgtiRHUv1MT4hh%2BELpfkbZr6RaOMBwuOw%3D') no-repeat center center/cover",
+      backgroundImage: "url('smart_ration_shop.webp')",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
