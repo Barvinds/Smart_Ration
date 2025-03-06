@@ -1,0 +1,13 @@
+[
+    { "id": 1, "name": "Rice", "price": 75, "weight": "10kg", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxg3_qXNIz1-bOO2eTASvLqvfe0SvEWhHp-wmqLQOV9SXFJciOyc9I-tkRbi1CMCZqxI&usqp=CAU" },
+    { "id": 2, "name": "Wheat", "price": 15, "weight": "2kg", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJzazTIRVKHJrB4VOsplFjQ2TERZFXk6Qlg&s" },
+    { "id": 3, "name": "Millet", "price": 12, "weight": "500g", "img": "https://www.marthastewart.com/thmb/mn20v4pinKUFHDGc9Qhua30CoQA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2023-year-of-millet-getty-0423-d023bf36fec148bbb1503b79f1e2c8de.jpg" },
+    { "id": 4, "name": "oil", "price": 40, "weight": "1L", "img": "https://cdn.marico.in/uploads/sesame-seeds-bottle-with-oil-old-wooden-table-sesame-oil-oil-glass-jug-1205-1919-1024x682-7392.jpg" },
+    { "id": 5, "name": "Sugar", "price": 20, "weight": "1kg", "img": "https://media.istockphoto.com/id/643271764/photo/sugar-in-a-bag-and-spoon.jpg?s=612x612&w=0&k=20&c=U4d8vtmc3hAHLnYH8FTdSClR8_-BCE6VcgIf7Z6_p-o=" },
+    { "id": 6, "name": "Black Eyed Peas", "price": 10, "weight": "1kg", "img": "https://media.post.rvohealth.io/wp-content/uploads/2020/01/black-eyed-peas-pea-732x549-thumbnail.jpg" },
+    { "id": 7, "name": "Chickpeas, white", "price": 10, "weight": "500g", "img": "https://www.greendna.in/cdn/shop/products/download_3_275x.jpeg?v=1560699060" },
+    { "id": 8, "name": "split chickpeas", "price": 10, "weight": "1kg", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3S_yCwfdHwFCsiE2f9QBsj0_5eyIoNpfqGg&s" },
+    { "id": 9, "name": "Bisket", "price": 2, "weight": "1Pc", "img": "https://rukminim3.flixcart.com/image/850/1000/ki96c280-0/cookie-biscuit/i/d/q/250-special-home-made-baked-atta-biscuits-wheat-cookies-original-imafy3cwkt5yzdnf.jpeg?q=90&crop=false" },
+    { "id": 10, "name": "Wheat Flour", "price": 5, "weight": "500g", "img": "https://aarogyamastu.in/wp-content/uploads/2022/06/wheat-flour.jpg" }
+  ]
+  
