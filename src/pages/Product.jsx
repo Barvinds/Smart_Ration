@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const styles = {
   container: {
@@ -58,6 +59,7 @@ const styles = {
 const Product = () => {
   const [products, setProducts] = useState([]);
   const [selectedProducts, setSelectedProducts] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/products.json")
@@ -75,6 +77,14 @@ const Product = () => {
   };
 
   const totalAmount = selectedProducts.reduce((sum, p) => sum + p.price, 0);
+
+  const handleConfirm = () => {
+    if (selectedProducts.length > 0) {
+      navigate("/scan-qr", { state: { totalAmount, selectedProducts } });
+    } else {
+      alert("Please select at least one product.");
+    }
+  };
 
   return (
     <div style={styles.container}>
@@ -99,7 +109,7 @@ const Product = () => {
       </div>
       <div style={styles.totamt}>
         <h3>Total Amount: ₹{totalAmount}</h3>
-        <button style={styles.confirmButton}>Confirm</button>
+        <button style={styles.confirmButton} onClick={handleConfirm}>Confirm</button>
       </div>
     </div>
   );
