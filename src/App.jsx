@@ -9,7 +9,7 @@ import Login from './components/Login';
 import './App.css';
 import PreLoader from './components/Preloader';
 import TranslateWidget from './components/TranslateWidget';
-
+import Scan from './pages/Scan';
 
 const App = () => {
     const [showPopup, setShowPopup] = useState(true);
@@ -39,6 +39,8 @@ const App = () => {
                             <Route path="/product" element={<Payment />} />
                             <Route path="/map" element={<Map />} />
                             <Route path="/about" element={<About />} />
+                            <Route path="/scan-qr" element={<Scan />} />
+
 
                             
                         </Routes>
