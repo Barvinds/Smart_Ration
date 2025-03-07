@@ -80,7 +80,7 @@ const Product = () => {
 
   const handleConfirm = () => {
     if (selectedProducts.length > 0) {
-      navigate("/scan-qr", { state: { totalAmount, selectedProducts } });
+      navigate("/scan-qr", { state: { totalAmount } }); // Pass totalAmount
     } else {
       alert("Please select at least one product.");
     }
