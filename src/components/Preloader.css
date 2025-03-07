@@ -14,22 +14,27 @@
     color: white;
     overflow: hidden !important;
 }
-    .texts-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 60px;
-        width: 280px;
-        font-size: 16px;
-        overflow: hidden;
-        font-weight: 600;
-        opacity: 0;
-        color: white;
 
-        @media (max-width: 600px) {
-            .preloader .texts-container {
-                font-size: 17px;
-                width: 240px;
-            }
+.texts-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 200px; /* Increased width for more space */
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: 600;
+    opacity: 0;
+    color: white;
+    gap: 2px; /* Adds space between text elements */
+    
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    .texts-container {
+        font-size: 18px;
+        width: 200px;
+        gap: 2px; 
     }
 }

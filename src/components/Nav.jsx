@@ -27,7 +27,7 @@ const Nav = ({ onLoginClick }) => {
                     <li className="nav__item">
                         <Link to="/product" className={`nav__link ${location.pathname === '/product' ? 'active-link' : ''}`}>
                             <TbListSearch />
-                            <span className="nav__name">Product</span>
+                            <span className="nav__name">Products</span>
                         </Link>
                     </li>
 

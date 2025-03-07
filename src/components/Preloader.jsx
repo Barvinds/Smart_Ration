@@ -10,8 +10,6 @@ const PreLoader = () => {
     <div className="preloader">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/TamilNadu_Logo.svg/1200px-TamilNadu_Logo.svg.png" width="150px" height="150px" />
       <div className="texts-container">
-        <span>WELLCOME</span>
-        <span> TO </span>
         <span>SMART </span>
         <span>RATION</span>
         <span>SHOP </span>
